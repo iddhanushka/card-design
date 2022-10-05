@@ -1,0 +1,25 @@
+.modal-box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: $orange;
+  padding: 20px;
+  border-radius: 10px;
+  color: $white;
+  display: none;
+
+  &--is-visible {
+    display: block;
+  }
+
+  &__header {
+    padding-bottom: 10px;
+  }
+
+  &__close {
+    border-bottom: 1px solid $lightGray;
+    text-decoration: none;
+    float: right;
+    color: $gray;
+  }
+}

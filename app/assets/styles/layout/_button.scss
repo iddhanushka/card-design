@@ -1,0 +1,15 @@
+.button {
+  padding: 10px 20px;
+  background-color: $lightGray;
+  display: inline-block;
+  text-decoration: none;
+  color: $gray;
+  border-radius: 5px;
+  width: 70px;
+  text-align: center;
+
+  &--save {
+    color: $white;
+    background-color: $orange;
+  }
+}
